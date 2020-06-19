@@ -1,0 +1,107 @@
+.video-box {
+  margin-top: 50px;
+}
+
+
+.video-box__video {
+  width: 1110px;
+  height: 600px;
+}
+.video {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+.how-i-work__h1 {
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+  text-align: center;
+  text-align: center;
+}
+
+.how-i-work__text {
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+    color: $lightBrown; 
+    margin-top: 39px;
+    text-align: center;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) { 
+  .video-box__video {
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  .how-i-work {
+    text-align: center;
+  }
+ }
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .video-box__video {
+    width: 450px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+  }
+  .how-i-work {
+    text-align: center;
+  }
+ }
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  .video-box__video {
+    width: 670px;
+    height: 355px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .how-i-work {
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .video-box__video {
+    margin-left: 30px;
+  }
+ }
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  .video-box__video {
+    width: 930px;
+    height: 460px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .how-i-work {
+    text-align: center;
+    margin-left: 30px;
+  }
+
+ }
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+  .how-i-work{
+    text-align: center;
+  }
+ }

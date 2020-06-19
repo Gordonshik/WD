@@ -1,0 +1,67 @@
+.project-list__img {
+  width: 480px;
+  height: 480px;
+}
+
+.project-list {
+  margin-top: 32px;
+}
+
+
+.our-partners__item {
+  margin-top: -20px;
+}
+
+.our-partners {
+  margin-top: 72px;
+}
+
+
+@media (max-width: 575.98px) { 
+  .project-list__img {
+    width: 120px;
+    height: 120px;
+  }
+  .our-partners__img {
+    width: 225px;
+    height: 100px;
+  }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .project-list__img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .our-partners__img {
+    width: 225px;
+    height: 100px;
+  }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .project-list__img {
+    width: 270px;
+    height: 250px;
+  }
+  .our-partners__img {
+    width: 225px;
+    height: 100px;
+  }
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .project-list__img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .our-partners__img {
+    width: 225px;
+    height: 100px;
+  }
+}

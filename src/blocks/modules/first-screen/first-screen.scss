@@ -1,0 +1,186 @@
+$roboto: 'Roboto', sans-serif;
+$dark: #34547A;
+$lightBrown: #727272;
+$blue: #34547a;
+$firstBg: #EEEFF1;
+$c4: #C4C4C4;
+$darkBrown: #5F5D5D;
+
+body{ 
+  overflow-X: hidden;
+}
+.nav-link {
+    font-family: $roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+color: $dark;
+margin: 0 12px;
+}
+
+.navbar {
+    margin-left: 20px;
+}
+
+.navbar-toggler-icon {
+    color: $dark;
+}
+
+#first-screen {
+    background: $firstBg;
+    width: 100%;
+}
+
+.first-screen-container {
+  margin-top: 50px;
+}
+
+.laptop {
+  margin: 141px 0 0 90px;
+}
+
+.right-side {
+  margin-bottom: 145px;
+  .right-side__h1 {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+  }
+
+  .right-side__text {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $lightBrown;
+    margin-top: 35px;
+  }
+
+  .right-side__btn {
+    width: 225px;
+    height: 65px;
+    background: $blue;
+    border: none;
+    margin-top: 37px;
+
+    .btn__text {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      margin-top: 20px
+    }
+  }
+}
+
+.div-right-side {
+    margin-top: 108px;
+    margin-left: 8.5px;
+}
+
+.fa-caret-square-down {
+  font-size: 30px;
+}
+
+@media (max-width: 575.98px) { 
+  .nav-link {
+    text-align: center;
+  }
+  
+  .right-side {
+    text-align: center;
+  }
+  
+  .laptop {
+    display: block;
+   margin-top: 20px;
+   margin-left: 6.9em;
+    height: 200px;
+    width: 200px;
+  } 
+
+  .nav-link {
+    font-size: 12px;
+    margin-left: -8px;
+  }
+
+  .right-side__h1 {
+    margin-top: -100px;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  
+ }
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+  .nav-link {
+  text-align: center;
+}
+
+.right-side {
+  text-align: center;
+}
+
+.laptop {
+  display: block;
+  margin: 50px auto 0 auto;
+  height: 200px;
+  width: 200px;
+} 
+ .laptop {
+    display: block;
+    margin-left: 10em
+}
+.nav-link {
+  font-size: 12px;
+  margin-left: -8px;
+}
+
+.navbar-brand {
+  margin-left: -2em;
+}
+
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .nav-link {
+    text-align: center;
+  }
+
+  .right-side {
+    text-align: center;
+  }
+
+  .laptop {
+    display: block;
+    margin-left: 10.5em
+}
+
+.nav-link {
+  font-size: 12px;
+}
+
+ }
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+ }
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+  
+ }

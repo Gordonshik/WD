@@ -1,0 +1,131 @@
+#video {
+  background: $firstBg;
+}
+
+.container-form {
+  margin-top: 100px;
+}
+
+
+
+.form-group__first-form-group {
+  margin-top: 57px;
+  margin-bottom: 20px;
+
+.form-group__item {
+width: 268px;
+height: 50px;
+background: #FFFFFF;
+border: none;
+font-family: $roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 23px;
+color: $darkBrown;
+text-indent: 19.5px;
+  }
+} 
+
+.form-group__textarea {
+  width: 540px;
+  height: 175px;
+  background: #FFFFFF;
+  border: none;
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: $darkBrown;
+  margin-bottom: 50px;
+  text-indent: 19.5px;
+  resize: none;
+} 
+
+.form-group__btn {
+  width: 190px;
+height: 55px; 
+background: $blue;
+border: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.15em;
+color: #FFFFFF;
+margin-bottom: 100px;
+}
+
+.about-me-div-last {
+  margin-top: 100px;
+}
+
+.do-you-want__h3 {
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.do-you-want__text {
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: $lightBrown;
+}
+
+@media (max-width: 575.98px) { 
+  .form-group__textarea {
+    width: 350px;
+  }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+  .form-group__textarea {
+    width: 400px;
+    height: 175px;
+    background: #FFFFFF;
+    border: none;
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: $darkBrown;
+    margin-bottom: 50px;
+    text-indent: 19.5px;
+    resize: none;
+    margin-left: 0.3em;
+  } 
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}
+
+@media (max-width: 767.98px) { 
+
+}

@@ -1,0 +1,60 @@
+.about-me-div {
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 15px;
+
+  .about-me-div__h1 {
+    font-family: $roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+color: #000000;
+text-align: center;
+margin-left: 5px;
+  }
+
+  .about-me-div__text {
+    font-family: $roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+    color: $lightBrown; 
+    margin-top: 39px;
+    text-align: center;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 575.98px) { 
+.about-me-div__text {
+  margin-left: 1.8em !important;
+}
+
+.about-me-div__h1 {
+  margin-left: 1em !important;
+}
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

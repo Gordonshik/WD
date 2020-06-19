@@ -1,0 +1,57 @@
+#numbers {
+  margin-top: 93px;
+}
+
+.numbers-box__img {
+  color: #000;
+}
+
+#numbers {
+  background: $blue;
+  height: 250px;
+  width: 100%;
+}
+
+.numbers-box {
+  margin-top: 100px;
+  margin-left: 0px;
+ }
+
+ .numbers-box__num-box {
+   margin-left: 21px;
+
+   .numbers-box__number {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 1.5px;
+   }
+
+   .numbers-box__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: -13px;
+   }
+ }
+
+ @media (max-width: 767.98px) {
+  #numbers {
+    height: 430px;
+    width: 100%;
+  }
+  }
+
+  @media (max-width: 340px) {
+    #numbers {
+      height: 600px;
+      width: 100%;
+    }
+  
+   }

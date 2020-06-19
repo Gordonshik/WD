@@ -1,0 +1,115 @@
+.my-skills__title {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+
+.my-skills {
+  margin-top: 100px;
+
+  .my-skills__title {
+    margin-top: 104px;
+    margin-bottom: 39px;
+    font-family: $roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+  }
+
+  .my-skills_item {
+    .my-skills__name {
+      font-family: $roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: $lightBrown;
+      margin-bottom: 19.88px;
+
+      .progress-bar {
+        margin-bottom: 28.76px;
+        background: $blue;
+      }
+    }
+  }
+
+  .progress {
+    background: $c4;
+  }
+  
+}
+
+.avatar-box__avatar {
+  margin-top: 102px;
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+.first-pb {
+  margin-top: -7px;
+  margin-bottom: 27px;
+}
+
+.second-pb {
+  margin-top: -8px;
+  margin-bottom: 27px;
+}
+
+.third-pb {
+  margin-top: -8px;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+.avatar-box__avatar {
+  width: 350px;
+  height: 350px;
+}
+
+.my-skills__title {
+  text-align: center;
+}
+
+.my-skills__progress-bar {
+  width: 330px !important;
+}
+
+
+ }
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .my-skills__title {
+    text-align: center;
+  }
+ }
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.my-skills__title {
+  text-align: center;
+}
+.my-skills__list {
+  display: block;
+  margin: 0 auto;
+}
+ }
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .my-skills__title {
+    text-align: center;
+  }
+
+  .my-skills__list {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+ }
